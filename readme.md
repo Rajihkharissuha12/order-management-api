@@ -1,4 +1,5 @@
 ### 1. Clone Repository
+
 ```bash
 git clone https://github.com/username/project-name.git
 cd project-name
@@ -11,3 +12,6 @@ JWT_SECRET="your_jwt_secret_here"
 PORT=3000
 4. Jalankan Aplikasi
 npm run dev
+5. Akses Swagger API Docs
+Buka browser dan akses: http://localhost:3000/api-docs
+```
