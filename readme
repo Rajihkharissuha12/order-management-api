@@ -1,0 +1,13 @@
+### 1. Clone Repository
+```bash
+git clone https://github.com/username/project-name.git
+cd project-name
+2. Install Dependencies
+npm install
+3. Setup Environment Variables
+DATABASE_URL="postgresql://postgres.yrfybetdlvzujduosejn:Rajih123@aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+DIRECT_URL="postgresql://postgres.yrfybetdlvzujduosejn:Rajih123@aws-1-ap-southeast-1.pooler.supabase.com:5432/postgres"
+JWT_SECRET="your_jwt_secret_here"
+PORT=3000
+4. Jalankan Aplikasi
+npm run dev
